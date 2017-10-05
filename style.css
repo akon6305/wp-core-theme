@@ -1,0 +1,318 @@
+/*
+Theme Name: Akon IT Theme
+Theme URI: http://diginewsbd.blogspot.com/
+Author: FH Akon (01764423216)
+Author URI: https://plus.google.com/103239145468891298666
+Version: 1.0.1
+Description: This is my personal and First Wordpress Theme. It's only made for Special Person Tipu Vai.
+License: GNU General Public License v2 or later
+License URI: 
+Tags: IT, Website, Wordpress, Communication, ISP.
+
+*/
+/***********************************************************
+				BASIC TEMPLATE CSS START             **************|
+***********************************************************/
+body,html{
+	height:100%;
+	font-family: 
+}
+.header_area{
+	padding:10px 0px;
+	position:absolute;
+	width:100%;
+	left:0;
+	top:0;
+	z-index:9999;
+	background:#FDFDFD
+}
+.item {
+  position: relative;
+}
+.item::after {
+  background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+  content: "";
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 100%;
+  position: absolute;
+}
+a{
+	color:;
+}
+button {
+  color: #fff;
+  font-size: 20px;
+}
+.slider-area {
+  background: #333 none repeat scroll 0 0;
+}
+.slide-1{
+  background:url("assets/images/bg.jpg");
+  background-size:100% 100%;
+  background-repeat:no-repeat;
+  background-position:center center;
+}
+.slide-2{
+  background:url("assets/images/bg2.jpg");
+  background-size:100% 100%;
+  background-repeat:no-repeat;
+  background-position:center center;
+}
+.slide-3{
+  background:url("assets/images/bg3.jpg");
+  background-size:100% 100%;
+  background-repeat:no-repeat;
+  background-position:center center;
+}
+.slider-area, .slider-area div {
+  height: 100%;
+  
+}
+.top-area .slide-item-tablecell, div {
+  height: auto;
+}
+.slide-item-tablecell {
+  display: table-cell;
+  vertical-align: middle;
+}
+.slide-itme-table {
+  display: table;
+  width:100%;
+}
+.text {
+  margin-top: 320px;
+  text-align: center;
+  position:relative;
+  z-index:1;
+ 
+}
+.text h1 {
+  font-size: 50px;
+   color:orange;
+  font-weight: 700;
+}
+.text p {
+  font-size: 20px;
+  color: #ddd;
+  text-transform:uppercase;
+}
+.another_area {
+  text-align: center;
+}
+.promo-area {
+  padding: 100px 0;
+}
+h3 {
+  font-size: 24px;
+  font-weight: 700;
+  padding-bottom: 10px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+}
+h3::after {
+  background: orange none repeat scroll 0 0;
+  bottom: 0;
+  content: "";
+  height: 2px;
+  left: 40%;
+  position: absolute;
+  width: 20%;
+}
+.promo-area h1 {
+  color: orange;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+.left.fawesome-control {
+  color: #fff;
+  font-size: 50px;
+  left: 10px;
+  position: absolute;
+  top: 50%;
+}
+.right.fawesome-control {
+  color: #fff;
+  font-size: 50px;
+  right: 10px;
+  position: absolute;
+  top: 50%;
+}
+.another_area {
+  float: left;
+  padding: 55px 0;
+  padding-bottom: 0;
+}
+.promo-area .p {
+  padding: 10px 209px;
+  text-align: center;
+}
+.another_area p {
+  color: #2e2e2e;
+  font-size: 15px;
+  letter-spacing: .5px;
+  text-align: center;
+}
+.another_area i {
+  border: 1px solid #888;
+  border-radius: 100%;
+  padding: 30px;
+  color:orange;
+  font-size:30px;
+}
+.plan {
+  background: #eee none repeat scroll 0 0;
+  padding: 60px 0;
+  text-align: center;
+}
+.plan .nav {
+  background: #333 none repeat scroll 0 0;
+  margin: 0;
+  padding: 30px 20px;
+}
+.plan .nav > li {
+  color: #b4b4b4;
+  display: block;
+  letter-spacing: 0.8px;
+  padding: 10px;
+  position: relative;
+  display:inline-block;
+  width:100%;
+  text-align:left
+}
+.plan h5 {
+  background: #00A9DE none repeat scroll 0 0;
+  margin: 0;
+  padding: 25px;
+  color: #fff;
+  font-size: 25px;
+}
+footer {
+  background: #333 none repeat scroll 0 0;
+  padding: 57px 0;
+}
+h2 {
+  color: #ddd;
+  font-size: 18px;
+}
+.nav > li > a {
+  display: block;
+  font-size: 15px;
+  padding: 10px 25px;
+  position: relative;
+}
+
+.navbar-collapse.collapse.myrule.pull-right {
+  padding: 20px;
+}
+.text i{
+  color: #ddd;
+  font-size: 50px;
+}
+.plan .nav > li i{
+	float:left;
+	width:10%;
+	text-align:center;
+	color:orange
+}
+.plan .nav > li span{
+	float:left;
+	width:90%;
+}
+.video_area {
+	padding:100px 0px;
+}
+.video {
+  height: 250px;
+  background:#ddd;
+}
+.video iframe {
+  height: 100%;
+  width: 100%;
+}
+.mrg {
+  margin: s;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.video_area h3{
+	padding:20px;
+	font-size:50px;
+	font-weight:700;
+}
+.video_area h2 {
+  color: orange;
+  font-size: 25px;
+  margin-bottom: 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.gmap {
+  height: 250px;
+}
+.gmap iframe {
+  height: 100%;
+  width: 100%;
+}
+.office {
+  color: #ddd;
+  padding-bottom: 10px;
+}
+.scl a i {
+  margin-right: 5px;
+  padding: 5px;
+  width: 20px;
+}
+.scl a:hover{
+	background:none
+}
+.navbar-collapse.collapse.myrule.pull-right {
+  padding-top: 20px;
+}
+.footer_area li a{
+	padding:5px;
+}
+.copyright {
+  background: #444 none repeat scroll 0 0;
+  color: #ddd;
+  padding: 10px;
+  text-align: center;
+}
+.copyright a{
+  color: orange;
+  padding: 10px;
+}
+
+.col-md-3.footer_menu li {
+    
+    margin-left: -41px;
+   
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.col-md-3.footer_menu li a {
+  display: block;
+  text-decoration: none;
+   padding: 3px;
+}
+.col-md-3.footer_menu li a:hover {background: #fff;}
+
+.singl_plan.PackagePlan {
+    background: #ddd none repeat scroll 0 0;
+    list-style: outside none none;
+    min-height: 551px;
+}
+
+.package_header {
+   color: orange;
+font-family: cursive;
+font-size: 25px;
+font-weight: 700;
+margin-bottom: 50px;
+text-align: center;
+text-transform: uppercase;
+}
